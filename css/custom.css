@@ -1,0 +1,277 @@
+/* adding font family */
+.one h1
+{
+    font-family: 'Pacifico', cursive;
+}
+/* adding height,width,text align and background color */
+section
+{
+    height: 100%;
+width: 100%;
+ text-align: center;
+background-color: whitesmoke;
+  
+}
+/* adding font family */
+section h2{
+    font-family: 'Lobster', cursive;
+}
+/* adding background color */
+article
+{
+    background:ghostwhite;
+}
+/* adding font family */
+article .review
+{
+    font-family: 'Playball', cursive;
+}
+/* adding margin,height and padding*/
+#form
+{
+    margin: 4%;
+    background-color:#F5F5F5;
+    height: 100%;    ;
+    padding: 25px;
+
+}
+/* adding text align and color along with font family */
+#form h2{
+    text-align: center;
+    color: rgb(223, 40, 40);
+    font-family: 'Lobster', cursive;
+    
+    
+}
+/* text align and padding */
+form .col
+{
+      text-align: center; 
+      padding: 45px;
+      
+}
+/* footer background color */
+footer
+{
+    background-color:ghostwhite;
+
+} 
+.background
+{   
+ margin: 1%;
+}
+/* adding margin to h2 and font family */
+.background h2
+{
+    margin-left: 35%;
+     font-family: 'Playball', cursive;
+   
+}
+/* adding height and width to map id */
+  #map {
+            height: 300px;
+            width: 100%;
+        }
+
+        
+.Who
+{
+margin: 4%;
+background-color: #F5F5F5;
+height: 100%;
+width: 90%;
+padding:2%;
+
+}
+/* adding font family */
+.Who h1{
+    font-family: 'Lobster', cursive;
+    color:rgb(223, 40, 40);
+}
+.col-5
+{
+    margin-top: 2%;
+    font-size: 20px;
+    background-color:  rgb(52, 58, 64);
+     color: ghostwhite;
+}
+/* adding color*/
+.background h2{
+    color: ghostwhite;
+}
+/* adding font size */
+        .nav-link {
+            font-size: 25px;
+
+        }
+     .events
+        {
+         
+            margin: 1;
+            width: 90%;
+        }
+        /* adding text-align and font family */
+        .events h1{
+            text-align: center;
+            font-family: 'Lobster', cursive;
+        }
+        /* adding font family */
+        .events h4{
+            text-align: center;
+            font-family: 'Lobster', cursive;
+        }
+        /* adding margin */
+        .team
+        {
+            margin: 4%;
+            
+        }
+/* text aligin,color, font-family */
+.team h1{
+    text-align: center;
+    color:rgb(223, 40, 40);
+    font-family: 'Lobster', cursive;
+}
+.col
+{
+    margin-left: 5%;
+}
+/* width,height,background-image */
+.team
+{
+    width: 100%;
+    height: 100%;
+    background-image: green;
+}
+/* adding background-color*/
+.events{
+    background-color: #F5F5F5;
+    margin:4%;
+}
+/* margin */
+.background
+{
+    margin: 4%;
+}
+/* adding margin,height,width,color and font size */
+.end
+{
+    margin: 1%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+    color:ghostwhite;
+    font-size: 25px;
+    
+}
+/* footer background,width,font,width,box-shadow */
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 20px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+/* font import */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+	padding:0;
+	margin:0;
+}
+/* footer position */
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* cardbody  */
+.cardbody
+{
+    color: greenyellow;
+}
+/* adding font family */
+section h2{
+    font-family: 'Lobster', cursive;
+}
+/* adding font family  and color */
+ .jumbotron h1
+{
+  font-family: 'Lobster', cursive;
+   color:rgb(223, 40, 40);
+
+} 
+/* adding font family and size */
+.card-title
+{
+     font-family: 'Lobster', cursive;
+   color:rgb(223, 40, 40);
+   font-size: 25px;
+}
